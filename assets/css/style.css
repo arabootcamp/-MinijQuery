@@ -1,0 +1,26 @@
+.box{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  margin: auto;
+}
+
+.box--custom{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+#haz-click{
+  background-color: aquamarine;
+}
+
+#cambiame{
+  background-color: yellow;
+}
+
+i:hover, a:hover{
+  color: tomato !important;;
+}
+
