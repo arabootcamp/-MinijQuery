@@ -26,7 +26,7 @@ $(function () {
 
   /*2. Dar vida al menú, incorporando la funcionalidad de que se oculte y muestre las opciones a partir de un click en el icono de la hamburguesa, utiliza algún efecto para que el cambio sea suave.*/
   $('#click-bars').click(function () {
-    $('#menu').toggle();
+    $('#menu').toggle("slow");
   });
 
   /*3. Dar un estilo a los elementos pares e impares de la lista al pasar el mouse sobre la caja roja y que vuelva a la normalidad cuando el mouse deje la caja (hint: mouseover(), mouseleave())*/
